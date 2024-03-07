@@ -1,3 +1,15 @@
+:root {
+  --c-basic_text_color: #000;
+  --c-accent_text_color: #000;
+  --c-invert_text_color: #FFF;
+  --c-overlay_color: rgba(0,0,0, 0.6);
+  --f-main_font: Raleway;
+  --f-main_font_size: 20px;
+  --f-title_font_size: 40px;
+  --f-text_font_size: 18px;
+
+}
+
 *,
 *::before,
 *::after {
@@ -8,6 +20,11 @@ body {
   width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  background-color: #f5f5f5;
+}
+
+address {
+  font-style: normal;
 }
 
 h1,
