@@ -11,13 +11,12 @@
 
 .header__links-list {
   display: flex;
-  gap: 15px;
   gap: 33px;
   margin-right: 36px;
   list-style: circle;
 }
 
-.header__link  {
+.header__link {
   font-size: 18px;
   line-height: 1.35;
   list-style-type: none;
@@ -94,11 +93,11 @@
   letter-spacing: 0.6em;
 }
 
-.text-accent-center{
+.text-accent-center {
   align-self: center;
 }
 
-.text-accent-right{
+.text-accent-right {
   align-self: end;
 }
 
@@ -284,7 +283,7 @@
   list-style-type: none;
 }
 
-.footer__link  {
+.footer__link {
   font-size: 18px;
   line-height: 1.2;
   list-style-type: none;
